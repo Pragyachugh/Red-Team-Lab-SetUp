@@ -2,7 +2,6 @@
 
 This document outlines the architecture and purpose of each machine in the offensive security lab.
 
----
 
 ## Virtualization Platform
 
@@ -10,7 +9,6 @@ This document outlines the architecture and purpose of each machine in the offen
 - **All VMs** stored on external/internal disk
 - Host-only and NAT network adapters used
 
----
 
 ##  Machines & Roles
 
@@ -23,12 +21,10 @@ This document outlines the architecture and purpose of each machine in the offen
 | DC01 | Domain Controller | Windows Server 2019 |
 | pfSense | Firewall / Router | pfSense 2.x |
 
----
 
 ##  Networking
 
 - **Host-only adapter:** Internal lab communication
 - **Bridged adapter;** Accessing network and IP from host machine
 - **NAT adapter:** Internet access for updates
-
 
