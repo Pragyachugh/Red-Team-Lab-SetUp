@@ -1,4 +1,5 @@
 Offensive Security Lab Setup
+
 This repository documents the setup, configuration, and fine-tuning of a local offensive security lab using VirtualBox on a Windows host. The lab includes commonly used vulnerable machines and tools such as Kali Linux, Metasploitable3, BWAPP, Commando VM, DC01 (Domain Controller), and pfSense as a firewall/router.
 
 Everything was configured manually over time, with many challenges and fixes along the way — documented here for others setting up similar labs.
