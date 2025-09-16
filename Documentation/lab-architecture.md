@@ -1,12 +1,14 @@
-Lab Architecture Overview
+LAB ARCHITECTURE OVERVIEW
+
 This document outlines the architecture and purpose of each machine in the offensive security lab.
 
-Virtualization Platform
+
+VIRTUALIZATION PLATFORM
 - **VirtualBox** on Windows Host
 - **All VMs** stored on external/internal disk
-- Host-only and NAT network adapters used
 
-Machines & Roles
+
+MACHINES & ROLES
 | Machine | Role | OS |
 |--------|------|----|
 | Kali | Attacker | Kali Linux 2024.x |
@@ -16,7 +18,10 @@ Machines & Roles
 | DC01 | Domain Controller | Windows Server 2019 |
 | pfSense | Firewall / Router | pfSense 2.x |
 
-Networking
-- **Host-only adapter:** Internal lab communication
-- **Bridged adapter;** Accessing network and IP from host machine
-- **NAT adapter:** Internet access for updates
+NETWORKING
+-NAT networks because:
+  -VM gets private IP addresses.
+  -VM can access internet with host machine IP address
+  -Outside internet can't directly access VM
+
+Also, we won't be using DHCP as we would need static IP addressing. In the intenal zone however, DHCP is managed by Domain Controller
