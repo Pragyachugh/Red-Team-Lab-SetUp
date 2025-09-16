@@ -14,4 +14,6 @@ INSTALLATION:
    -Internal Zone: Statically assign IPv4 prefixes and disable DHCP
    -DMZ Zone: Statically assign IPv4 prefixes and disable DHCP
 
+Reference image : ![my work](Images/VM setup.jpg)
+
 Here we complete a basic setup of our Virtual Box 
