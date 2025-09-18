@@ -24,4 +24,13 @@ This will start the machine.
 
 7. Enter the desired information and you are well good to go just enter your login id password and that's it.
 
-   
+NETWORK ADAPTERS SETUP IN KALI 
+- Wired connection 1 is the bridged adapter that is already connected to the same network as the host machine. It is mainly used for connecting to internet.
+- Wired connection 2 is the network adapter for External zone , change its IPv4 settings manually
+- Wired connection 3 is the network adapter for DMZ-zone , change its IPv4 settings manually
+- Wired connection 4 is the network adapter for Internal zone , change its IPv4 settings manually
+
+Work reference :  [Images/
+Check the connection with the linux terminal command "ip a" and verify the networks.
+
+Now update your kali linux with the command " sudo apt update " enter your password and you are good to go.
