@@ -15,19 +15,21 @@ What's Inside
 Machines Included
 
 - Kali Linux
+- Windows10 client
+- Windows11 client
 - Metasploitable3
 - Commando VM
 - BWAPP (Ubuntu-based)
 - DC01 (Windows Server - Domain Controller)
 - pfSense (Firewall/Router)
+- IIS SQL Server
 
 Repo Layout
 
 | Folder | Description |
 |--------|-------------|
 | `Documentation/` | Configurations, and fixes |
-| `Scripts/` | Any automation scripts used |
-| `Media/` | Diagrams and screenshots |
+| `Images/` | Diagrams and screenshots |
 
 
 More coming soon as I refine and document the lab in depth.
