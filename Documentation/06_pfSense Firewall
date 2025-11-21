@@ -1,0 +1,11 @@
+* We won't be making a lot of use of firewall because for a firewall to be effective, network traffic has to be routed through the firewall which we won't be doing in our setup. But since it's good to have a firewall so we would be downloading and learning it.*
+Installation:
+1. Download and extract the .iso image of pfSense from netgate official page.
+2. On completing the download process , configure the network settings that is 
+  Adapter1 - bridged
+  Adapter2 - Nat > dmz zone
+  Adapter3 - Nat > external zone
+  Adapter4 - Nat > internal zone
+3. Power off the machine and remove the disk from storage and boot the machine to complete installation.
+4. Once the machine boots up completely, we have to alter the network settings accordingly that means selecting the WAN(External network), LAN(Internal Network), and other optional ones(DMZ Zone networks and bridged network).
+
