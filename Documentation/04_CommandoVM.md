@@ -13,4 +13,12 @@ NOW, VM SETUP :
 - Finish the setup and do the changes in advanced settings like enable 3D acceleration , allow bidirectional movements, enable only 1 network adapter for now i.e. bridged adapter for internet access.
 - Finally you're ready to start the machine.
 
+Inside Windows 10:
+- Clean up the desktop as per your preferences. I removed microsoft edge, search bar, etc. from taskbar. You can clean it as per your preference.
+- Now update windows from settings > update and security.
+- Insert Guest Addition CD Image in your setup.
+- In File Explorer > go to This PC > Then Click on virtual box guest addition drive.
+- From here install 64 bit guest addition application of virtualBox.
+- In control Panel, disable windows defender wall.
+- 
   
