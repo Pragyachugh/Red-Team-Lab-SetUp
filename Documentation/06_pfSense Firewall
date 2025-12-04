@@ -9,3 +9,4 @@ Installation:
 3. Power off the machine and remove the disk from storage and boot the machine to complete installation.
 4. Once the machine boots up completely, we have to alter the network settings accordingly that means selecting the WAN(External network), LAN(Internal Network), and other optional ones(DMZ Zone networks and bridged network).
 
+** To check it we must have a machine in our internal zome which we don't have so once we setup internal zone machine then we will be checking the working of pfSense Firewall. **
